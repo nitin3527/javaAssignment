@@ -7,7 +7,8 @@ class Icici extends Bank{
     @Override
     public void getDetais() {
         super.getDetais();
-        System.out.println("This is ICICI bank");
+        double interstRate = 0.4;
+        System.out.println("This is ICICI bank where interst is: " + interstRate + "%");
 
     }
 }
@@ -15,14 +16,16 @@ class Sbi extends  Bank{
     @Override
     public void getDetais() {
         super.getDetais();
-        System.out.println("This is SBI bank");
+        double interstRate = 0.6;
+        System.out.println("This is SBI bank where interst is: " + interstRate + "%");
     }
 }
 class Boi extends Bank{
     @Override
     public void getDetais() {
         super.getDetais();
-        System.out.println("This is BOI bank");
+        double interstRate = 0.3;
+        System.out.println("This is BOI bank where interst is: " + interstRate + "%");
     }
 }
 public class Q11 {
